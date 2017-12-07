@@ -1,0 +1,38 @@
+.header{
+  background-color:rgba(0, 0, 0, 0.9);
+  height:30px;
+  display:flex;
+  justify-content:space-around;
+  color:yellow;
+  font-size:18px;
+  position:fixed;
+}
+body{
+  background-image:url("https://www.t-sharks.com/PUBRSRC/1/i0tytz/1_big.png");
+  background-size:450px;
+}
+html,body{
+  font-family: 'Lobster', sans-serif;
+}
+.main{
+  color:yellow;
+  text-align: center;
+
+}
+.main p{
+  width:550px;
+  margin:auto;
+}
+.card-img-top{
+  height:350px;
+  background-size: contain;
+}
+
+.card-img-bottom{
+  height:350px;
+}
+
+.card-body h4,p{
+  text-align: center;
+  color:yellow;
+}
