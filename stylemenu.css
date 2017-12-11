@@ -21,5 +21,31 @@ body{
   justify-content:space-around;
   color:yellow;
   font-size:18px;
-  position:fixed;
+  position:fixed absolute;
+}
+
+.container{
+  border:solid yellow 1px;
+  margin-top: 50px;
+  width:600px;
+  background-color:rgba(0,0,0,0.8);
+
+}
+.row{
+  line-height: 15px;
+}
+.col-10 h3{
+  color:#e9a610;
+}
+.col-10{
+  color:yellow;
+  margin-top:5px;
+}
+.col-2{
+  margin-top:35px;
+  color:#b11e1e;
+}
+.badge{
+  color:teal;
+  background-color:orange;
 }

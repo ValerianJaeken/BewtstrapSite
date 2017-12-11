@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>Sloth land</title>
-  <link rel="stylesheet" href="style.css">
 
   <!-- FAVICON ============================================================== -->
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
@@ -32,48 +31,68 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   <!-- font -->
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
   <!-- start header -->
   <header class="container-fluid header">
-    <a href="index.html"><p><strong>Home</strong></p> </a>
-    <a href="menu.html"><p><strong>Menu</strong></p> </a>
+    <a href="index.html">
+      <p><strong>Home</strong></p>
+    </a>
+    <a href="menu.html">
+      <p><strong>Menu</strong></p>
+    </a>
     <a href="contact.html">
-    <p><strong>Contact us</strong></p>
+      <p><strong>Contact us</strong></p>
     </a>
     <a href="gallery.html">
-    <p><strong>Gallery</strong></p>
+      <p><strong>Gallery</strong></p>
     </a>
     <a href="localisation.html">
       <p><strong>Localisation</strong></p>
     </a>
   </header>
   <!-- end header -->
-
-  <!--START JUMBOTRON  -->
   <div class="container">
-    <div style="  background-color:rgba(0, 0, 0, 0.7); !important" class="jumbotron main">
-      <h1>Welcome to Sloth Land</h1>
-      <p>Here, we like to take our time, not show up at work and forget your orders. We may also eat part of your food, because that's how delicious it is. We're opened all the time because we're too lazy to close shop.</p>
-    </div>
-    <div style="  background-color:rgba(0, 0, 0, 0.7); !important" class="card mb-3">
-      <img class="card-img-top" src="https://i.imgur.com/gjcWUVl.png" alt="Card image cap">
-      <div class="card-body">
-        <h4 class="card-title">Fruit & Chicken month !</h4>
-        <p class="card-text">This month theme is all about fruits and chicken meat, with free dessert every mondays!</p>
-        <p class="card-text"><small class="text-muted"><strong>Posted 07-12-17</strong></small></p>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label"> First name</label>
+      <div class="col-sm-10">
+        <input type="First ame" class="form-control" id="colFormLabel" placeholder="First name">
       </div>
     </div>
-    <div style="  background-color:rgba(0, 0, 0, 0.7); !important" class="card">
-      <div class="card-body">
-        <h4 class="card-title">Friday night Pizza night</h4>
-        <p class="card-text">Every friday will have a new weekly Pizza for the whole week before changing again !</p>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Last name</label>
+      <div class="col-sm-10">
+        <input type="Last name" class="form-control" id="colFormLabel" placeholder="Last name">
       </div>
-      <img class="card-img-bottom" src="https://ih1.redbubble.net/image.380241619.6681/flat,800x800,075,t.u3.jpg" alt="Card image cap">
     </div>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="colFormLabel" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Reason</label>
+      <div class="col-sm-10">
+        <select class="custom-select">
+          <option selected>Reason of your message</option>
+          <option value="1">I don't like sloths</option>
+          <option value="2">I hate my life</option>
+          <option value="3">Becky won't let me smash</option>
+        </select>
+      </div>
+    </div>
+    <a class="btn btn-primary" href="http://forgifs.com/gallery/d/160787-5/Sloth-hammock-deal-with-it.gif" role="button">Slothmit your message</a>
   </div>
-  <!-- END JUMBOTRON -->
+
+
+
+
+
+
+
 </body>
 
 </html>

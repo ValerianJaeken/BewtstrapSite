@@ -1,0 +1,21 @@
+html,body{
+  font-family: 'Lobster', sans-serif;
+}
+.header{
+  background-color:rgba(0, 0, 0, 0.9);
+  height:30px;
+  display:flex;
+  justify-content:space-around;
+  color:yellow;
+  font-size:18px;
+  position:fixed absolute;
+}
+
+body{
+  background-image:url("https://i.imgur.com/cYm6yVj.jpg");
+  background-size:cover;
+}
+.container{
+  background-color:rgba(0, 0, 0, 0.6);
+  color:yellow;
+}
